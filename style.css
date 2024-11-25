@@ -1,0 +1,47 @@
+body {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: 
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+li {
+    display: inline;
+}
+
+
+.top-section {
+    display: flex;
+    height: 25%;
+    margin-bottom: 50px;
+}
+
+.img-section {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img-section img { 
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.main-text {
+    width: 60%;
+ 
