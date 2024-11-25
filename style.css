@@ -3,6 +3,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #40C575;
 }
 
 /* Nav bar styling */
@@ -19,7 +20,7 @@ ul {
     margin: 0;
     padding-top: 25px;
     padding-bottom: 25px;
-  }
+}
 
 li {
     display: inline;
@@ -38,7 +39,7 @@ li {
     margin-bottom: 50px;
 }
 
-.img-section img { 
+.img-section img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -50,21 +51,21 @@ li {
 
 /* Menu styling */
 
-.menu-box {
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%
-}
-
 .menu-cell {
-
-    height: 100vh;
+height: 100vh;
+width: 56.1vh;
 }
 
 /* Free Beer Styling */
 
 input[type=button]:hover {
-    transform: translateY(100px);
+    transform: translateY(30px);
+}
+
+input[type=button]:active {
+    display: none;
+}
+
+.free-beer {
+    background-color: white;
 }
